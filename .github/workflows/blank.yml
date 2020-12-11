@@ -24,7 +24,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run the container
-        uses: ghcr.io/lukaspersonal/actions-demo@v1
+        uses: docker://ghcr.io/lukaspersonal/actions-demo:latest
         env:
           VAR: "We have done it"
 
